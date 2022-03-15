@@ -3,11 +3,12 @@
   "description": "Reduced cost of change through CQRS in Symfony",
   "type": "symfony-bundle",
   "require": {
-    "php": "~8.0.0",
-    "symfony/framework-bundle": "^5.3",
-    "symfony/serializer": "^5.3"
+    "php": "^8.0.0|^8.1.0",
+    "symfony/framework-bundle": "^5.3|^6.0",
+    "symfony/serializer": "^5.3|^6.0"
   },
   "require-dev": {
+    "roave/security-advisories": "dev-latest",
     "vimeo/psalm": "^4.12",
     "friendsofphp/php-cs-fixer": "^3.3",
     "phpunit/phpunit": "^9.5"
